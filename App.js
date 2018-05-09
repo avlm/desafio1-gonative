@@ -56,7 +56,7 @@ class ambiente extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.barTopText}>GoNative App</Text>
+          <Text style={styles.barTopText}>Primeiro App</Text>
         </View>
         <ScrollView style={styles.postsContainer}>
           { this.state.posts.map(post => <Post key={post.id} post={post} />) }
